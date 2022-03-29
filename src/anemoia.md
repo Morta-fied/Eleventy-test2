@@ -5,7 +5,7 @@ tags: navItem
 ---
 <section class="container"> 
 <div>
- <img src="images/anemoia2.png"> 
+ <img src="/images/anemoia2.png"> 
 </div>
   
 <div>

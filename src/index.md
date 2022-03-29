@@ -3,5 +3,4 @@ title: Home
 layout: base.njk
 tags: navItem
 ---
-# {{title}}
-
+{% include "nav2.njk" %}

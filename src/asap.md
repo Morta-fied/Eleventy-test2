@@ -5,7 +5,7 @@ tags: navItem
 ---
 <section class="container">
 <div>
- <img src="images/app2.png">
+ <img src="/images/app2.png">
 </div>
 <div>
   <h1>BMCC ASAP Companion</h1>
