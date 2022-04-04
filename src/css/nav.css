@@ -58,12 +58,7 @@
   .fa {
   font-size: 1.25 em;
   }
-  .container {
-    display: grid; 
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows:.33fr .33fr .34fr;  
-    gap: 10px 10px; 
-  }
+
   
     html {
       font-size: 1em;
@@ -164,92 +159,4 @@
   @media (min-width: 600px){
   body {
      background-color: #1b1c1e; }
-    h1 {
-      font-size: 1.5em;
-      line-height: 1;
-      margin: 0 0 0.5em 0;
-      font-family: 'Orbitron', sans-serif;
-  }
-  
-  h2 {
-      font-size: 1em;
-      line-height: 1.2;
-      margin: 1.5em 0 0.5em 0;
-      font-family: 'Orbitron', sans-serif;
-  }
-  
-  h3 {
-      font-size: 2em;
-      line-height: 1;
-      margin: 1.5em 0 0.25em 0;
-  }
-  
-  
-           /* this applies to mobile in landscape and some tablets in portrait */
-  
-  }/*   end min-width 600 */
-  
-    
-  @media (min-width: 900px){
-  body {
-     background-color:  #1b1c1e; }
-  h1 {
-      font-size: 2em;
-      line-height: 1;
-      margin: 0 0 0.5em 0;
-     font-family: 'Orbitron', sans-serif;
-  }
-  
-  h2 {
-      font-size: 1.5em;
-      line-height: 1.2;
-      margin: 1.5em 0 0.5em 0;
-  }
-  
-  h3 {
-      font-size: 2em;
-      line-height: 1;
-      margin: 1.5em 0 0.25em 0;
-  }
-  
-   
-            /* this applies to tablets */
-  }/*   end min-width 900 */
-  
-    
-  
-      @media (max-width: 1200px){
-  body {
-  background-color:  #1b1c1e; }
-  h1 {
-      font-size: 2em;
-      line-height: 1;
-      margin: 0 0 0.5em 0;
-      font-family: 'Orbitron', sans-serif;
-  }
-  
-  h2 {
-      font-size: 2.25em;
-      line-height: 1.2;
-      margin: 1.5em 0 0.5em 0;
-  }
-  
-  h3 {
-      font-size: 2em;
-      line-height: 1;
-      margin: 1.5em 0 0.25em 0;
-  }
-  
-   
-            /* this applies average laptops */
-  
-      }/*   end min-width 1200 */
-  
-      @media (max-width: 1800px){
-  
-            /* this applies to large laptops and desktops */
-  
-      }/*   end min-width 1800 */
-  
-  
-  
+ 

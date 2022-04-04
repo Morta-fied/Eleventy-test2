@@ -65,12 +65,8 @@ body {
 .fa {
 font-size: 1.25 em;
 }
-.container {
-  display: grid; 
-  grid-template-columns: 1fr 1fr; 
-  grid-template-rows:.33fr .33fr .34fr;  
-  gap: 10px 10px; 
-}
+
+
 
   html {
     font-size: 1em;
@@ -163,6 +159,15 @@ img, video {
   margin: 5px 2px;
 }
 
+/* start media query 300 px */
+@media (min-width: 300px){
+  .container {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows:.33fr .33fr .34fr;  
+    gap: 10px 10px; 
+  }
+}
 
 
 /* start media query 600 px */
@@ -190,9 +195,12 @@ h3 {
 }
 
 
+
+
          /* this applies to mobile in landscape and some tablets in portrait */
 
 }/*   end min-width 600 */
+
 
   
 @media (min-width: 900px){

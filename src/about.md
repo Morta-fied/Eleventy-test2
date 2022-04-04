@@ -1,7 +1,7 @@
 ---
 title: Home
 layout: base.njk
-tags: navItem
+tags: navItem 
 ---
 <section class="container">
   <div>

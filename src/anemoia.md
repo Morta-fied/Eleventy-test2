@@ -2,6 +2,7 @@
 title: Sample page
 layout: base.njk
 tags: navItem
+
 ---
 <section class="container"> 
 <div>
