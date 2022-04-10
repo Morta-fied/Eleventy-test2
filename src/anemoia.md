@@ -1,5 +1,5 @@
 ---
-title: Sample page
+title: anemoia
 layout: base.njk
 tags: navItem
 
